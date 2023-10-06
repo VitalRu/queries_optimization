@@ -1,6 +1,7 @@
+from datetime import timedelta
+
 from rest_framework import serializers
 from rest_framework.validators import UniqueTogetherValidator
-from datetime import timedelta
 
 from lessons.models import Lesson, Product, ProductAccess, ProductLesson
 

@@ -1,7 +1,9 @@
-from rest_framework import viewsets
-from lessons.models import Product, ProductAccess, Lesson
-from .serializers import ProductSerializer, LessonSerializer
 from django.db.models import Q
+from rest_framework import viewsets
+
+from lessons.models import Lesson, Product, ProductAccess
+
+from .serializers import LessonSerializer, ProductSerializer
 
 
 class ProductLessonsListViewSet(viewsets.ViewSet):
