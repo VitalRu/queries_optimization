@@ -14,15 +14,21 @@ class Lesson(models.Model):
         return self.title
 
 
+class LessonView(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    lesson = models.ForeignKey(
+        Lesson,
+        on_delete=models.CASCADE,
+        related_name='view_lesson'
+    )
+    view_time = models.DateTimeField(auto_now_add=True)
+    view_duration = models.IntegerField(
+        verbose_name='длительность просмотра сек.'
+    )
+
+
 class Product(models.Model):
     title = models.CharField(max_length=100, verbose_name='название продукта')
-    owner = models.ForeignKey(
-        User,
-        on_delete=models.CASCADE,
-        related_name='products',
-        verbose_name='владелец',
-        blank=True,
-    )
     lesson = models.ManyToManyField(
         Lesson,
         through='ProductLesson',
@@ -57,3 +63,13 @@ class ProductLesson(models.Model):
         on_delete=models.CASCADE,
         related_name='products',
     )
+
+    class Meta:
+        verbose_name = 'Урок в продукте'
+        verbose_name_plural = 'Уроки в продукте'
+        constraints = (
+            models.UniqueConstraint(
+                fields=('product', 'lesson'),
+                name='unique_product_lesson'
+            ),
+        )
