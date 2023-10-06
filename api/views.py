@@ -1,11 +1,20 @@
 from rest_framework import viewsets
-from lessons.models import Product, ProductAccess
+from lessons.models import Product, ProductAccess, Lesson
 from .serializers import ProductSerializer, LessonSerializer
+from django.db.models import Q
 
 
 class ProductLessonsListViewSet(viewsets.ViewSet):
-    queryset = Product.objects.all()
     serializer_class = ProductSerializer
+
+    def get_queryset(self, *args, **kwargs):
+        product_id = self.kwargs.get('product_id')
+        user = self.request.user
+        queryset = Lesson.objects.filter(
+            Q(lesson_products__product_id=product_id)
+            & Q(lesson_products__product__owner=user)
+        )
+        return queryset
 
 
 class LessonListViewSet(viewsets.ModelViewSet):
