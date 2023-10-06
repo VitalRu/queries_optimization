@@ -8,7 +8,13 @@ User = get_user_model()
 class Lesson(models.Model):
     title = models.CharField(max_length=100)
     video_link = models.URLField()
-    duration = models.IntegerField(verbose_name='длительность в секундах')
+    duration = models.IntegerField(verbose_name='длительность сек.')
+
+
+class LessonView(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    lesson = models.ForeignKey(Lesson, on_delete=models.CASCADE)
+    view_duration = models.IntegerField(verbose_name='длительность просмотра сек.')
 
 
 class Product(models.Model):
@@ -22,7 +28,7 @@ class Product(models.Model):
     lesson = models.ManyToManyField(
         Lesson,
         through='ProductLesson',
-        related_name='product_lessons',
+        related_name='lesson_products',
         verbose_name='уроки продукта'
     )
 

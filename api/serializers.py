@@ -17,9 +17,15 @@ class ProductAccessSerializer(serializers.ModelSerializer):
 
 
 class LessonSerializer(serializers.ModelSerializer):
+    is_viewed = serializers.SerializerMethodField()
+
     class Meta:
         model = Lesson
-        fields = ('title', 'video_link', 'duration', 'products')
+        fields = ('title', 'video_link', 'duration', 'products', 'is_viewed')
+
+        def get_is_viewed(self, obj):
+            watched_percentage = (obj.watched_time / obj.duration) * 100
+            return watched_percentage >= 80
 
 
 class ProductLessonSerializer(serializers.ModelSerializer):
