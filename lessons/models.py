@@ -10,11 +10,8 @@ class Lesson(models.Model):
     video_link = models.URLField()
     duration = models.IntegerField(verbose_name='длительность сек.')
 
-
-class LessonView(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
-    lesson = models.ForeignKey(Lesson, on_delete=models.CASCADE)
-    view_duration = models.IntegerField(verbose_name='длительность просмотра сек.')
+    def __str__(self):
+        return self.title
 
 
 class Product(models.Model):
@@ -24,6 +21,7 @@ class Product(models.Model):
         on_delete=models.CASCADE,
         related_name='products',
         verbose_name='владелец',
+        blank=True,
     )
     lesson = models.ManyToManyField(
         Lesson,
@@ -31,6 +29,9 @@ class Product(models.Model):
         related_name='lesson_products',
         verbose_name='уроки продукта'
     )
+
+    def __str__(self):
+        return self.title
 
 
 class ProductAccess(models.Model):
@@ -40,6 +41,9 @@ class ProductAccess(models.Model):
         related_name='accessed_products',
         on_delete=models.CASCADE,
     )
+
+    def __str__(self):
+        return f'{self.user} has access to {self.product}'
 
 
 class ProductLesson(models.Model):
