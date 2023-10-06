@@ -41,11 +41,15 @@ class Product(models.Model):
 
 
 class ProductAccess(models.Model):
-    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    product = models.ForeignKey(
+        Product,
+        on_delete=models.CASCADE,
+        related_name='product_accessed',
+    )
     user = models.ForeignKey(
         User,
-        related_name='accessed_products',
         on_delete=models.CASCADE,
+        related_name='accessed_products',
     )
 
     def __str__(self):
