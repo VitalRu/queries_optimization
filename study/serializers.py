@@ -1,20 +1,18 @@
 from rest_framework import serializers
 
-from study.models import Lesson, LessonViesInfo
+from study.models import Lesson, LessonViewInfo
 
 
 class MyLessonsViewInfoSerializer(serializers.ModelSerializer):
     class Meta:
-        model = LessonViesInfo
+        model = LessonViewInfo
         fields = ('status', 'view_time')
 
 
 class MyLessonsSerializer(serializers.ModelSerializer):
-    view_info = serializers.SerializerMethodField()
-
-    def get_view_info(self, obj):
-        view_info = LessonViesInfo.objects.get
+    status = serializers.CharField()
+    view_time = serializers.IntegerField()
 
     class Meta:
         models = Lesson
-        fields = ('title',) 
+        fields = ('title', 'view_info')

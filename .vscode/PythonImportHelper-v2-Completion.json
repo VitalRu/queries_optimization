@@ -24,27 +24,11 @@
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
         "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "django.conf",
         "documentation": {}
     },
     {
@@ -64,7 +48,55 @@
         "documentation": {}
     },
     {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
         "importPath": "django.db",
         "description": "django.db",
         "isExtraImport": true,
@@ -202,6 +234,22 @@
         "documentation": {}
     },
     {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "openapi",
         "importPath": "drf_yasg",
         "description": "drf_yasg",
@@ -258,6 +306,46 @@
         "documentation": {}
     },
     {
+        "label": "Lesson",
+        "importPath": "study.models",
+        "description": "study.models",
+        "isExtraImport": true,
+        "detail": "study.models",
+        "documentation": {}
+    },
+    {
+        "label": "LessonViewInfo",
+        "importPath": "study.models",
+        "description": "study.models",
+        "isExtraImport": true,
+        "detail": "study.models",
+        "documentation": {}
+    },
+    {
+        "label": "Lesson",
+        "importPath": "study.models",
+        "description": "study.models",
+        "isExtraImport": true,
+        "detail": "study.models",
+        "documentation": {}
+    },
+    {
+        "label": "LessonViewInfo",
+        "importPath": "study.models",
+        "description": "study.models",
+        "isExtraImport": true,
+        "detail": "study.models",
+        "documentation": {}
+    },
+    {
+        "label": "Lesson",
+        "importPath": "study.models",
+        "description": "study.models",
+        "isExtraImport": true,
+        "detail": "study.models",
+        "documentation": {}
+    },
+    {
         "label": "Product",
         "importPath": "catalog.models",
         "description": "catalog.models",
@@ -274,27 +362,43 @@
         "documentation": {}
     },
     {
-        "label": "Lesson",
-        "importPath": "study.models",
-        "description": "study.models",
+        "label": "SimpleRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
         "isExtraImport": true,
-        "detail": "study.models",
+        "detail": "rest_framework.routers",
         "documentation": {}
     },
     {
-        "label": "LessonViesInfo",
-        "importPath": "study.models",
-        "description": "study.models",
+        "label": "MyLessonsViewSet",
+        "importPath": "study.views",
+        "description": "study.views",
         "isExtraImport": true,
-        "detail": "study.models",
+        "detail": "study.views",
         "documentation": {}
     },
     {
-        "label": "Lesson",
-        "importPath": "study.models",
-        "description": "study.models",
+        "label": "F",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
         "isExtraImport": true,
-        "detail": "study.models",
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "FilteredRelation",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Q",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
         "documentation": {}
     },
     {
@@ -303,6 +407,14 @@
         "description": "rest_framework.permissions",
         "isExtraImport": true,
         "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "MyLessonsSerializer",
+        "importPath": "study.serializers",
+        "description": "study.serializers",
+        "isExtraImport": true,
+        "detail": "study.serializers",
         "documentation": {}
     },
     {
@@ -543,7 +655,7 @@
         "kind": 5,
         "importPath": "learnify.urls",
         "description": "learnify.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\n        'swagger/',\n        schema_view.with_ui('swagger', cache_timeout=0),\n        name='schema-swagger-ui'\n    ),\n    path('admin/', admin.site.urls),\n]",
+        "peekOfCode": "urlpatterns = [\n    path(\n        'swagger/',\n        schema_view.with_ui('swagger', cache_timeout=0),\n        name='schema-swagger-ui'\n    ),\n    path('study/', include('study.urls')),\n    path('admin/', admin.site.urls),\n]",
         "detail": "learnify.urls",
         "documentation": {}
     },
@@ -575,6 +687,42 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "study.migrations.0003_rename_lessonviesinfo_lessonviewinfo",
+        "description": "study.migrations.0003_rename_lessonviesinfo_lessonviewinfo",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        ('study', '0002_alter_lessonviesinfo_unique_together'),\n    ]\n    operations = [\n        migrations.RenameModel(\n            old_name='LessonViesInfo',\n            new_name='LessonViewInfo',\n        ),",
+        "detail": "study.migrations.0003_rename_lessonviesinfo_lessonviewinfo",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "study.migrations.0004_auto_20231010_1724",
+        "description": "study.migrations.0004_auto_20231010_1724",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('study', '0003_rename_lessonviesinfo_lessonviewinfo'),\n    ]\n    operations = [\n        migrations.AlterUniqueTogether(\n            name='lessonviewinfo',\n            unique_together=set(),\n        ),\n        migrations.AddConstraint(",
+        "detail": "study.migrations.0004_auto_20231010_1724",
+        "documentation": {}
+    },
+    {
+        "label": "LessonAdmin",
+        "kind": 6,
+        "importPath": "study.admin",
+        "description": "study.admin",
+        "peekOfCode": "class LessonAdmin(admin.ModelAdmin):\n    pass\n@admin.register(LessonViewInfo)\nclass LessonViewInfoAdmin(admin.ModelAdmin):\n    pass",
+        "detail": "study.admin",
+        "documentation": {}
+    },
+    {
+        "label": "LessonViewInfoAdmin",
+        "kind": 6,
+        "importPath": "study.admin",
+        "description": "study.admin",
+        "peekOfCode": "class LessonViewInfoAdmin(admin.ModelAdmin):\n    pass",
+        "detail": "study.admin",
+        "documentation": {}
+    },
+    {
         "label": "StudyConfig",
         "kind": 6,
         "importPath": "study.apps",
@@ -588,7 +736,7 @@
         "kind": 6,
         "importPath": "study.models",
         "description": "study.models",
-        "peekOfCode": "class Lesson(models.Model):\n    title = models.CharField(max_length=32)\n    video_url = models.URLField()\n    video_duration = models.IntegerField(default=0)\n    products = models.ManyToManyField(Product)\nclass LessonStatusEnum(models.TextChoices):\n    VIEWED = 'VIEWED'\n    NOT_VIEWED = 'NOT_VIEWED'\nclass LessonViesInfo(models.Model):\n    lesson = models.ForeignKey(Lesson, models.CASCADE, 'views')",
+        "peekOfCode": "class Lesson(models.Model):\n    title = models.CharField(max_length=32)\n    video_url = models.URLField()\n    video_duration = models.IntegerField(default=0)\n    products = models.ManyToManyField(Product)\nclass LessonStatusEnum(models.TextChoices):\n    VIEWED = 'VIEWED'\n    NOT_VIEWED = 'NOT_VIEWED'\nclass LessonViewInfo(models.Model):\n    lesson = models.ForeignKey(Lesson, models.CASCADE, 'views')",
         "detail": "study.models",
         "documentation": {}
     },
@@ -597,16 +745,16 @@
         "kind": 6,
         "importPath": "study.models",
         "description": "study.models",
-        "peekOfCode": "class LessonStatusEnum(models.TextChoices):\n    VIEWED = 'VIEWED'\n    NOT_VIEWED = 'NOT_VIEWED'\nclass LessonViesInfo(models.Model):\n    lesson = models.ForeignKey(Lesson, models.CASCADE, 'views')\n    user = models.ForeignKey(User, models.CASCADE)\n    status = models.CharField(\n        choices=LessonStatusEnum.choices, default=LessonStatusEnum.NOT_VIEWED, max_length=32\n    )\n    view_time = models.IntegerField(default=0)",
+        "peekOfCode": "class LessonStatusEnum(models.TextChoices):\n    VIEWED = 'VIEWED'\n    NOT_VIEWED = 'NOT_VIEWED'\nclass LessonViewInfo(models.Model):\n    lesson = models.ForeignKey(Lesson, models.CASCADE, 'views')\n    user = models.ForeignKey(User, models.CASCADE)\n    status = models.CharField(\n        choices=LessonStatusEnum.choices, default=LessonStatusEnum.NOT_VIEWED, max_length=32\n    )\n    view_time = models.IntegerField(default=0)",
         "detail": "study.models",
         "documentation": {}
     },
     {
-        "label": "LessonViesInfo",
+        "label": "LessonViewInfo",
         "kind": 6,
         "importPath": "study.models",
         "description": "study.models",
-        "peekOfCode": "class LessonViesInfo(models.Model):\n    lesson = models.ForeignKey(Lesson, models.CASCADE, 'views')\n    user = models.ForeignKey(User, models.CASCADE)\n    status = models.CharField(\n        choices=LessonStatusEnum.choices, default=LessonStatusEnum.NOT_VIEWED, max_length=32\n    )\n    view_time = models.IntegerField(default=0)\n    class Meta:\n        unique_together = ('lesson', 'user')  # переделать на constraints",
+        "peekOfCode": "class LessonViewInfo(models.Model):\n    lesson = models.ForeignKey(Lesson, models.CASCADE, 'views')\n    user = models.ForeignKey(User, models.CASCADE)\n    status = models.CharField(\n        choices=LessonStatusEnum.choices, default=LessonStatusEnum.NOT_VIEWED, max_length=32\n    )\n    view_time = models.IntegerField(default=0)\n    class Meta:\n        constraints = (\n            models.UniqueConstraint(",
         "detail": "study.models",
         "documentation": {}
     },
@@ -615,7 +763,7 @@
         "kind": 6,
         "importPath": "study.serializers",
         "description": "study.serializers",
-        "peekOfCode": "class MyLessonsViewInfoSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = LessonViesInfo\n        fields = ('status', 'view_time')\nclass MyLessonsSerializer(serializers.ModelSerializer):\n    view_info = serializers.SerializerMethodField()\n    def get_view_info(self, obj):\n        view_info = LessonViesInfo.objects.get\n    class Meta:\n        models = Lesson",
+        "peekOfCode": "class MyLessonsViewInfoSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = LessonViewInfo\n        fields = ('status', 'view_time')\nclass MyLessonsSerializer(serializers.ModelSerializer):\n    status = serializers.CharField()\n    view_time = serializers.IntegerField()\n    class Meta:\n        models = Lesson\n        fields = ('title', 'view_info')",
         "detail": "study.serializers",
         "documentation": {}
     },
@@ -624,8 +772,26 @@
         "kind": 6,
         "importPath": "study.serializers",
         "description": "study.serializers",
-        "peekOfCode": "class MyLessonsSerializer(serializers.ModelSerializer):\n    view_info = serializers.SerializerMethodField()\n    def get_view_info(self, obj):\n        view_info = LessonViesInfo.objects.get\n    class Meta:\n        models = Lesson\n        fields = ('title',)",
+        "peekOfCode": "class MyLessonsSerializer(serializers.ModelSerializer):\n    status = serializers.CharField()\n    view_time = serializers.IntegerField()\n    class Meta:\n        models = Lesson\n        fields = ('title', 'view_info')",
         "detail": "study.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "study.urls",
+        "description": "study.urls",
+        "peekOfCode": "router = SimpleRouter()\nrouter.register('my-lessons', MyLessonsViewSet, 'my-lessons')\nurlpatterns = [\n    path('', include(router.urls))\n]",
+        "detail": "study.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "study.urls",
+        "description": "study.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', include(router.urls))\n]",
+        "detail": "study.urls",
         "documentation": {}
     },
     {
@@ -633,7 +799,7 @@
         "kind": 6,
         "importPath": "study.views",
         "description": "study.views",
-        "peekOfCode": "class MyLessonsViewSet(viewsets.GenericViewSet, mixins.ListModelMixin):\n    serializer_class = None\n    permission_classes = (IsAuthenticated,)\n    def get_queryset(self):\n        accesses = ProductAccess.objects.filter(user=self.request.user, is_valid=True)\n        queryset = Lesson.objects.filter(products=accesses.values('product_id'))",
+        "peekOfCode": "class MyLessonsViewSet(viewsets.GenericViewSet, mixins.ListModelMixin):\n    serializer_class = MyLessonsSerializer\n    permission_classes = (IsAuthenticated,)\n    def get_queryset(self):\n        accesses = ProductAccess.objects.filter(user=self.request.user, is_valid=True)\n        queryset = Lesson.objects.filter(\n            products=accesses.values('product_id')\n        ).alias(\n            view_info=FilteredRelation(\n                'views',",
         "detail": "study.views",
         "documentation": {}
     },

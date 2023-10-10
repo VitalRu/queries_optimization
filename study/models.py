@@ -16,7 +16,7 @@ class LessonStatusEnum(models.TextChoices):
     NOT_VIEWED = 'NOT_VIEWED'
 
 
-class LessonViesInfo(models.Model):
+class LessonViewInfo(models.Model):
     lesson = models.ForeignKey(Lesson, models.CASCADE, 'views')
     user = models.ForeignKey(User, models.CASCADE)
     status = models.CharField(
@@ -25,4 +25,8 @@ class LessonViesInfo(models.Model):
     view_time = models.IntegerField(default=0)
 
     class Meta:
-        unique_together = ('lesson', 'user')  # переделать на constraints
+        constraints = (
+            models.UniqueConstraint(
+                fields=('lesson', 'user'), name='unique_pair'
+            ),
+        )
