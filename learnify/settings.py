@@ -25,8 +25,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'drf_yasg',
-    'lessons',
-    'api',
+    'catalog',
+    'study',
 ]
 
 MIDDLEWARE = [

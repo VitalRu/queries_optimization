@@ -1,0 +1,649 @@
+[
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "openapi",
+        "importPath": "drf_yasg",
+        "description": "drf_yasg",
+        "isExtraImport": true,
+        "detail": "drf_yasg",
+        "documentation": {}
+    },
+    {
+        "label": "get_schema_view",
+        "importPath": "drf_yasg.views",
+        "description": "drf_yasg.views",
+        "isExtraImport": true,
+        "detail": "drf_yasg.views",
+        "documentation": {}
+    },
+    {
+        "label": "permissions",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "mixins",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "catalog.models",
+        "description": "catalog.models",
+        "isExtraImport": true,
+        "detail": "catalog.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProductAccess",
+        "importPath": "catalog.models",
+        "description": "catalog.models",
+        "isExtraImport": true,
+        "detail": "catalog.models",
+        "documentation": {}
+    },
+    {
+        "label": "Lesson",
+        "importPath": "study.models",
+        "description": "study.models",
+        "isExtraImport": true,
+        "detail": "study.models",
+        "documentation": {}
+    },
+    {
+        "label": "LessonViesInfo",
+        "importPath": "study.models",
+        "description": "study.models",
+        "isExtraImport": true,
+        "detail": "study.models",
+        "documentation": {}
+    },
+    {
+        "label": "Lesson",
+        "importPath": "study.models",
+        "description": "study.models",
+        "isExtraImport": true,
+        "detail": "study.models",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "warnings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "warnings",
+        "description": "warnings",
+        "detail": "warnings",
+        "documentation": {}
+    },
+    {
+        "label": "management",
+        "importPath": "django.core",
+        "description": "django.core",
+        "isExtraImport": true,
+        "detail": "django.core",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "catalog.migrations.0001_initial",
+        "description": "catalog.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Product',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "catalog.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "CatalogConfig",
+        "kind": 6,
+        "importPath": "catalog.apps",
+        "description": "catalog.apps",
+        "peekOfCode": "class CatalogConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'catalog'",
+        "detail": "catalog.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "kind": 6,
+        "importPath": "catalog.models",
+        "description": "catalog.models",
+        "peekOfCode": "class Product(models.Model):\n    title = models.CharField(max_length=32)\n    user = models.ForeignKey(User, models.PROTECT)\nclass ProductAccess(models.Model):\n    user = models.ForeignKey(User, models.PROTECT)\n    product = models.ForeignKey(Product, models.PROTECT, 'accesses')\n    is_valid = models.BooleanField(default=True)",
+        "detail": "catalog.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProductAccess",
+        "kind": 6,
+        "importPath": "catalog.models",
+        "description": "catalog.models",
+        "peekOfCode": "class ProductAccess(models.Model):\n    user = models.ForeignKey(User, models.PROTECT)\n    product = models.ForeignKey(Product, models.PROTECT, 'accesses')\n    is_valid = models.BooleanField(default=True)",
+        "detail": "catalog.models",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "learnify.asgi",
+        "description": "learnify.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "learnify.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "learnify.settings",
+        "description": "learnify.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\nSECRET_KEY = os.getenv('SECRET_KEY', default='sercret_key')\nif os.getenv('DEBUG', default='False').lower() == 'true':\n    DEBUG = True\nelse:\n    DEBUG = False\nALLOWED_HOSTS = []\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "detail": "learnify.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "learnify.settings",
+        "description": "learnify.settings",
+        "peekOfCode": "SECRET_KEY = os.getenv('SECRET_KEY', default='sercret_key')\nif os.getenv('DEBUG', default='False').lower() == 'true':\n    DEBUG = True\nelse:\n    DEBUG = False\nALLOWED_HOSTS = []\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "detail": "learnify.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "learnify.settings",
+        "description": "learnify.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'drf_yasg',\n    'catalog',",
+        "detail": "learnify.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "learnify.settings",
+        "description": "learnify.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'drf_yasg',\n    'catalog',\n    'study',",
+        "detail": "learnify.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "learnify.settings",
+        "description": "learnify.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'learnify.urls'",
+        "detail": "learnify.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "learnify.settings",
+        "description": "learnify.settings",
+        "peekOfCode": "ROOT_URLCONF = 'learnify.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "learnify.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "learnify.settings",
+        "description": "learnify.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "learnify.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "learnify.settings",
+        "description": "learnify.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'learnify.wsgi.application'\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',",
+        "detail": "learnify.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "learnify.settings",
+        "description": "learnify.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },",
+        "detail": "learnify.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "learnify.settings",
+        "description": "learnify.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "learnify.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "learnify.settings",
+        "description": "learnify.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\nSTATIC_URL = '/static/'\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "learnify.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "learnify.settings",
+        "description": "learnify.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\nSTATIC_URL = '/static/'\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "learnify.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "learnify.settings",
+        "description": "learnify.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\nSTATIC_URL = '/static/'\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "learnify.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_L10N",
+        "kind": 5,
+        "importPath": "learnify.settings",
+        "description": "learnify.settings",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\nSTATIC_URL = '/static/'\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "learnify.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "learnify.settings",
+        "description": "learnify.settings",
+        "peekOfCode": "USE_TZ = True\nSTATIC_URL = '/static/'\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "learnify.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "learnify.settings",
+        "description": "learnify.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "learnify.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "learnify.settings",
+        "description": "learnify.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "learnify.settings",
+        "documentation": {}
+    },
+    {
+        "label": "schema_view",
+        "kind": 5,
+        "importPath": "learnify.urls",
+        "description": "learnify.urls",
+        "peekOfCode": "schema_view = get_schema_view(\n    openapi.Info(\n        title=\"API\",\n        default_version='v1',\n        description=\"API Documentation\",\n        terms_of_service=\"https://www.google.com/policies/terms/\",\n        contact=openapi.Contact(email=\"v1talrudenko@yandex.ru\"),\n        license=openapi.License(name=\"BSD License\"),\n    ),\n    public=True,",
+        "detail": "learnify.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "learnify.urls",
+        "description": "learnify.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\n        'swagger/',\n        schema_view.with_ui('swagger', cache_timeout=0),\n        name='schema-swagger-ui'\n    ),\n    path('admin/', admin.site.urls),\n]",
+        "detail": "learnify.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "learnify.wsgi",
+        "description": "learnify.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "learnify.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "study.migrations.0001_initial",
+        "description": "study.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('catalog', '0001_initial'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Lesson',\n            fields=[",
+        "detail": "study.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "study.migrations.0002_alter_lessonviesinfo_unique_together",
+        "description": "study.migrations.0002_alter_lessonviesinfo_unique_together",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        ('study', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterUniqueTogether(\n            name='lessonviesinfo',\n            unique_together={('lesson', 'user')},\n        ),",
+        "detail": "study.migrations.0002_alter_lessonviesinfo_unique_together",
+        "documentation": {}
+    },
+    {
+        "label": "StudyConfig",
+        "kind": 6,
+        "importPath": "study.apps",
+        "description": "study.apps",
+        "peekOfCode": "class StudyConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'study'",
+        "detail": "study.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Lesson",
+        "kind": 6,
+        "importPath": "study.models",
+        "description": "study.models",
+        "peekOfCode": "class Lesson(models.Model):\n    title = models.CharField(max_length=32)\n    video_url = models.URLField()\n    video_duration = models.IntegerField(default=0)\n    products = models.ManyToManyField(Product)\nclass LessonStatusEnum(models.TextChoices):\n    VIEWED = 'VIEWED'\n    NOT_VIEWED = 'NOT_VIEWED'\nclass LessonViesInfo(models.Model):\n    lesson = models.ForeignKey(Lesson, models.CASCADE, 'views')",
+        "detail": "study.models",
+        "documentation": {}
+    },
+    {
+        "label": "LessonStatusEnum",
+        "kind": 6,
+        "importPath": "study.models",
+        "description": "study.models",
+        "peekOfCode": "class LessonStatusEnum(models.TextChoices):\n    VIEWED = 'VIEWED'\n    NOT_VIEWED = 'NOT_VIEWED'\nclass LessonViesInfo(models.Model):\n    lesson = models.ForeignKey(Lesson, models.CASCADE, 'views')\n    user = models.ForeignKey(User, models.CASCADE)\n    status = models.CharField(\n        choices=LessonStatusEnum.choices, default=LessonStatusEnum.NOT_VIEWED, max_length=32\n    )\n    view_time = models.IntegerField(default=0)",
+        "detail": "study.models",
+        "documentation": {}
+    },
+    {
+        "label": "LessonViesInfo",
+        "kind": 6,
+        "importPath": "study.models",
+        "description": "study.models",
+        "peekOfCode": "class LessonViesInfo(models.Model):\n    lesson = models.ForeignKey(Lesson, models.CASCADE, 'views')\n    user = models.ForeignKey(User, models.CASCADE)\n    status = models.CharField(\n        choices=LessonStatusEnum.choices, default=LessonStatusEnum.NOT_VIEWED, max_length=32\n    )\n    view_time = models.IntegerField(default=0)\n    class Meta:\n        unique_together = ('lesson', 'user')  # переделать на constraints",
+        "detail": "study.models",
+        "documentation": {}
+    },
+    {
+        "label": "MyLessonsViewInfoSerializer",
+        "kind": 6,
+        "importPath": "study.serializers",
+        "description": "study.serializers",
+        "peekOfCode": "class MyLessonsViewInfoSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = LessonViesInfo\n        fields = ('status', 'view_time')\nclass MyLessonsSerializer(serializers.ModelSerializer):\n    view_info = serializers.SerializerMethodField()\n    def get_view_info(self, obj):\n        view_info = LessonViesInfo.objects.get\n    class Meta:\n        models = Lesson",
+        "detail": "study.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "MyLessonsSerializer",
+        "kind": 6,
+        "importPath": "study.serializers",
+        "description": "study.serializers",
+        "peekOfCode": "class MyLessonsSerializer(serializers.ModelSerializer):\n    view_info = serializers.SerializerMethodField()\n    def get_view_info(self, obj):\n        view_info = LessonViesInfo.objects.get\n    class Meta:\n        models = Lesson\n        fields = ('title',)",
+        "detail": "study.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "MyLessonsViewSet",
+        "kind": 6,
+        "importPath": "study.views",
+        "description": "study.views",
+        "peekOfCode": "class MyLessonsViewSet(viewsets.GenericViewSet, mixins.ListModelMixin):\n    serializer_class = None\n    permission_classes = (IsAuthenticated,)\n    def get_queryset(self):\n        accesses = ProductAccess.objects.filter(user=self.request.user, is_valid=True)\n        queryset = Lesson.objects.filter(products=accesses.values('product_id'))",
+        "detail": "study.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'learnify.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
