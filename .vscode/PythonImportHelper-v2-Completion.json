@@ -104,6 +104,38 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -142,6 +174,38 @@
         "description": "django.contrib",
         "isExtraImport": true,
         "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "catalog.models",
+        "description": "catalog.models",
+        "isExtraImport": true,
+        "detail": "catalog.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProductAccess",
+        "importPath": "catalog.models",
+        "description": "catalog.models",
+        "isExtraImport": true,
+        "detail": "catalog.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "catalog.models",
+        "description": "catalog.models",
+        "isExtraImport": true,
+        "detail": "catalog.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProductAccess",
+        "importPath": "catalog.models",
+        "description": "catalog.models",
+        "isExtraImport": true,
+        "detail": "catalog.models",
         "documentation": {}
     },
     {
@@ -282,6 +346,14 @@
         "documentation": {}
     },
     {
+        "label": "exceptions",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
         "label": "mixins",
         "importPath": "rest_framework",
         "description": "rest_framework",
@@ -306,6 +378,23 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "Lesson",
         "importPath": "study.models",
         "description": "study.models",
@@ -327,38 +416,6 @@
         "description": "study.models",
         "isExtraImport": true,
         "detail": "study.models",
-        "documentation": {}
-    },
-    {
-        "label": "LessonViewInfo",
-        "importPath": "study.models",
-        "description": "study.models",
-        "isExtraImport": true,
-        "detail": "study.models",
-        "documentation": {}
-    },
-    {
-        "label": "Lesson",
-        "importPath": "study.models",
-        "description": "study.models",
-        "isExtraImport": true,
-        "detail": "study.models",
-        "documentation": {}
-    },
-    {
-        "label": "Product",
-        "importPath": "catalog.models",
-        "description": "catalog.models",
-        "isExtraImport": true,
-        "detail": "catalog.models",
-        "documentation": {}
-    },
-    {
-        "label": "ProductAccess",
-        "importPath": "catalog.models",
-        "description": "catalog.models",
-        "isExtraImport": true,
-        "detail": "catalog.models",
         "documentation": {}
     },
     {
@@ -367,6 +424,14 @@
         "description": "rest_framework.routers",
         "isExtraImport": true,
         "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "MyLessonsByProductViewSet",
+        "importPath": "study.views",
+        "description": "study.views",
+        "isExtraImport": true,
+        "detail": "study.views",
         "documentation": {}
     },
     {
@@ -418,23 +483,6 @@
         "documentation": {}
     },
     {
-        "label": "warnings",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "warnings",
-        "description": "warnings",
-        "detail": "warnings",
-        "documentation": {}
-    },
-    {
-        "label": "management",
-        "importPath": "django.core",
-        "description": "django.core",
-        "isExtraImport": true,
-        "detail": "django.core",
-        "documentation": {}
-    },
-    {
         "label": "sys",
         "kind": 6,
         "isExtraImport": true,
@@ -450,6 +498,24 @@
         "description": "catalog.migrations.0001_initial",
         "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Product',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
         "detail": "catalog.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "ProductAdmin",
+        "kind": 6,
+        "importPath": "catalog.admin",
+        "description": "catalog.admin",
+        "peekOfCode": "class ProductAdmin(admin.ModelAdmin):\n    pass\n@admin.register(ProductAccess)\nclass ProductAccessAdmin(admin.ModelAdmin):\n    pass",
+        "detail": "catalog.admin",
+        "documentation": {}
+    },
+    {
+        "label": "ProductAccessAdmin",
+        "kind": 6,
+        "importPath": "catalog.admin",
+        "description": "catalog.admin",
+        "peekOfCode": "class ProductAccessAdmin(admin.ModelAdmin):\n    pass",
+        "detail": "catalog.admin",
         "documentation": {}
     },
     {
@@ -705,6 +771,24 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "study.migrations.0005_lessonviewinfo_last_view_datetime",
+        "description": "study.migrations.0005_lessonviewinfo_last_view_datetime",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('study', '0004_auto_20231010_1724'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='lessonviewinfo',\n            name='last_view_datetime',\n            field=models.DateTimeField(default=datetime.datetime(2023, 10, 13, 11, 17, 48, 670678)),\n        ),",
+        "detail": "study.migrations.0005_lessonviewinfo_last_view_datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "study.migrations.0006_alter_lessonviewinfo_last_view_datetime",
+        "description": "study.migrations.0006_alter_lessonviewinfo_last_view_datetime",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('study', '0005_lessonviewinfo_last_view_datetime'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='lessonviewinfo',\n            name='last_view_datetime',\n            field=models.DateTimeField(default=datetime.datetime(2023, 10, 13, 11, 18, 59, 157226)),\n        ),",
+        "detail": "study.migrations.0006_alter_lessonviewinfo_last_view_datetime",
+        "documentation": {}
+    },
+    {
         "label": "LessonAdmin",
         "kind": 6,
         "importPath": "study.admin",
@@ -754,17 +838,8 @@
         "kind": 6,
         "importPath": "study.models",
         "description": "study.models",
-        "peekOfCode": "class LessonViewInfo(models.Model):\n    lesson = models.ForeignKey(Lesson, models.CASCADE, 'views')\n    user = models.ForeignKey(User, models.CASCADE)\n    status = models.CharField(\n        choices=LessonStatusEnum.choices, default=LessonStatusEnum.NOT_VIEWED, max_length=32\n    )\n    view_time = models.IntegerField(default=0)\n    class Meta:\n        constraints = (\n            models.UniqueConstraint(",
+        "peekOfCode": "class LessonViewInfo(models.Model):\n    lesson = models.ForeignKey(Lesson, models.CASCADE, 'views')\n    user = models.ForeignKey(User, models.CASCADE)\n    status = models.CharField(\n        choices=LessonStatusEnum.choices, default=LessonStatusEnum.NOT_VIEWED, max_length=32\n    )\n    view_time = models.IntegerField(default=0)\n    last_view_datetime = models.DateTimeField(default=datetime.now())\n    class Meta:\n        constraints = (",
         "detail": "study.models",
-        "documentation": {}
-    },
-    {
-        "label": "MyLessonsViewInfoSerializer",
-        "kind": 6,
-        "importPath": "study.serializers",
-        "description": "study.serializers",
-        "peekOfCode": "class MyLessonsViewInfoSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = LessonViewInfo\n        fields = ('status', 'view_time')\nclass MyLessonsSerializer(serializers.ModelSerializer):\n    status = serializers.CharField()\n    view_time = serializers.IntegerField()\n    class Meta:\n        models = Lesson\n        fields = ('title', 'view_info')",
-        "detail": "study.serializers",
         "documentation": {}
     },
     {
@@ -772,7 +847,7 @@
         "kind": 6,
         "importPath": "study.serializers",
         "description": "study.serializers",
-        "peekOfCode": "class MyLessonsSerializer(serializers.ModelSerializer):\n    status = serializers.CharField()\n    view_time = serializers.IntegerField()\n    class Meta:\n        models = Lesson\n        fields = ('title', 'view_info')",
+        "peekOfCode": "class MyLessonsSerializer(serializers.ModelSerializer):\n    status = serializers.CharField()\n    view_time = serializers.IntegerField()\n    class Meta:\n        model = Lesson\n        fields = ('title', 'status', 'view_time')",
         "detail": "study.serializers",
         "documentation": {}
     },
@@ -781,7 +856,7 @@
         "kind": 5,
         "importPath": "study.urls",
         "description": "study.urls",
-        "peekOfCode": "router = SimpleRouter()\nrouter.register('my-lessons', MyLessonsViewSet, 'my-lessons')\nurlpatterns = [\n    path('', include(router.urls))\n]",
+        "peekOfCode": "router = SimpleRouter()\nrouter.register('my-lessons', MyLessonsViewSet, 'my-lessons')\nurlpatterns = [\n    path('by-product/<int:product_id>/lessons/', MyLessonsByProductViewSet.as_view({'get': 'list'})),\n    path('', include(router.urls))\n]",
         "detail": "study.urls",
         "documentation": {}
     },
@@ -790,7 +865,7 @@
         "kind": 5,
         "importPath": "study.urls",
         "description": "study.urls",
-        "peekOfCode": "urlpatterns = [\n    path('', include(router.urls))\n]",
+        "peekOfCode": "urlpatterns = [\n    path('by-product/<int:product_id>/lessons/', MyLessonsByProductViewSet.as_view({'get': 'list'})),\n    path('', include(router.urls))\n]",
         "detail": "study.urls",
         "documentation": {}
     },
@@ -799,7 +874,25 @@
         "kind": 6,
         "importPath": "study.views",
         "description": "study.views",
-        "peekOfCode": "class MyLessonsViewSet(viewsets.GenericViewSet, mixins.ListModelMixin):\n    serializer_class = MyLessonsSerializer\n    permission_classes = (IsAuthenticated,)\n    def get_queryset(self):\n        accesses = ProductAccess.objects.filter(user=self.request.user, is_valid=True)\n        queryset = Lesson.objects.filter(\n            products=accesses.values('product_id')\n        ).alias(\n            view_info=FilteredRelation(\n                'views',",
+        "peekOfCode": "class MyLessonsViewSet(viewsets.GenericViewSet, mixins.ListModelMixin):\n    serializer_class = MyLessonsSerializer\n    permission_classes = (IsAuthenticated,)\n    def get_queryset(self):\n        accesses = get_product_accesses(self.request.user)\n        queryset = Lesson.objects.filter(\n            products__in=accesses.values('product_id')\n        ).alias(\n            view_info=FilteredRelation(\n                'views',",
+        "detail": "study.views",
+        "documentation": {}
+    },
+    {
+        "label": "MyLessonsByProductViewSet",
+        "kind": 6,
+        "importPath": "study.views",
+        "description": "study.views",
+        "peekOfCode": "class MyLessonsByProductViewSet(viewsets.GenericViewSet, mixins.ListModelMixin):\n    serializer_class = None\n    permission_classes = (IsAuthenticated,)\n    def get_queryset(self):\n        accesses = get_product_accesses(self.request.user)\n        product_id = self.kwargs['product_id']\n        if product_id in accesses.values_list('product_id', flat=True):\n            raise exceptions.NotFound\n        queryset = Lesson.objects.filter(\n            products=product_id",
+        "detail": "study.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_product_accesses",
+        "kind": 2,
+        "importPath": "study.views",
+        "description": "study.views",
+        "peekOfCode": "def get_product_accesses(user):\n    return ProductAccess.objects.filter(user=user, is_valid=True)\nclass MyLessonsViewSet(viewsets.GenericViewSet, mixins.ListModelMixin):\n    serializer_class = MyLessonsSerializer\n    permission_classes = (IsAuthenticated,)\n    def get_queryset(self):\n        accesses = get_product_accesses(self.request.user)\n        queryset = Lesson.objects.filter(\n            products__in=accesses.values('product_id')\n        ).alias(",
         "detail": "study.views",
         "documentation": {}
     },

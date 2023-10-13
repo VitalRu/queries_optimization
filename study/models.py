@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from django.contrib.auth.models import User
 from django.db import models
 
@@ -23,6 +25,7 @@ class LessonViewInfo(models.Model):
         choices=LessonStatusEnum.choices, default=LessonStatusEnum.NOT_VIEWED, max_length=32
     )
     view_time = models.IntegerField(default=0)
+    last_view_datetime = models.DateTimeField(default=datetime.now())
 
     class Meta:
         constraints = (
