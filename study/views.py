@@ -4,7 +4,7 @@ from rest_framework.permissions import IsAuthenticated
 
 from catalog.models import ProductAccess
 from study.models import Lesson
-from study.serializers import MyLessonsSerializer
+from study.serializers import MyLessonByProductSerializer, MyLessonsSerializer
 
 
 def get_product_accesses(user):
@@ -32,14 +32,14 @@ class MyLessonsViewSet(viewsets.GenericViewSet, mixins.ListModelMixin):
 
 
 class MyLessonsByProductViewSet(viewsets.GenericViewSet, mixins.ListModelMixin):
-    serializer_class = None
+    serializer_class = MyLessonByProductSerializer
     permission_classes = (IsAuthenticated,)
 
     def get_queryset(self):
         accesses = get_product_accesses(self.request.user)
         product_id = self.kwargs['product_id']
 
-        if product_id in accesses.values_list('product_id', flat=True):
+        if not (product_id in accesses.values_list('product_id', flat=True)):
             raise exceptions.NotFound
 
         queryset = Lesson.objects.filter(

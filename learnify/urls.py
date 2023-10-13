@@ -25,5 +25,6 @@ urlpatterns = [
         name='schema-swagger-ui'
     ),
     path('study/', include('study.urls')),
+    path('catalog/', include('catalog.urls')),
     path('admin/', admin.site.urls),
 ]

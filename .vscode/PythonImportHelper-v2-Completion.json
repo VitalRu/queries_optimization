@@ -136,6 +136,22 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -209,6 +225,22 @@
         "documentation": {}
     },
     {
+        "label": "Product",
+        "importPath": "catalog.models",
+        "description": "catalog.models",
+        "isExtraImport": true,
+        "detail": "catalog.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProductAccess",
+        "importPath": "catalog.models",
+        "description": "catalog.models",
+        "isExtraImport": true,
+        "detail": "catalog.models",
+        "documentation": {}
+    },
+    {
         "label": "AppConfig",
         "importPath": "django.apps",
         "description": "django.apps",
@@ -241,92 +273,35 @@
         "documentation": {}
     },
     {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
         "isExtraImport": true,
-        "detail": "django.shortcuts",
+        "detail": "django.contrib.auth.models",
         "documentation": {}
     },
     {
-        "label": "os",
-        "kind": 6,
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
         "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
+        "detail": "rest_framework",
         "documentation": {}
     },
     {
-        "label": "get_asgi_application",
-        "importPath": "django.core.asgi",
-        "description": "django.core.asgi",
+        "label": "mixins",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
         "isExtraImport": true,
-        "detail": "django.core.asgi",
+        "detail": "rest_framework",
         "documentation": {}
     },
     {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
         "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "include",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "include",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "openapi",
-        "importPath": "drf_yasg",
-        "description": "drf_yasg",
-        "isExtraImport": true,
-        "detail": "drf_yasg",
-        "documentation": {}
-    },
-    {
-        "label": "get_schema_view",
-        "importPath": "drf_yasg.views",
-        "description": "drf_yasg.views",
-        "isExtraImport": true,
-        "detail": "drf_yasg.views",
+        "detail": "rest_framework",
         "documentation": {}
     },
     {
@@ -370,76 +345,83 @@
         "documentation": {}
     },
     {
-        "label": "get_wsgi_application",
-        "importPath": "django.core.wsgi",
-        "description": "django.core.wsgi",
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
         "isExtraImport": true,
-        "detail": "django.core.wsgi",
+        "detail": "django.urls",
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "kind": 6,
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
         "isExtraImport": true,
-        "importPath": "datetime",
-        "description": "datetime",
-        "detail": "datetime",
+        "detail": "django.urls",
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
         "isExtraImport": true,
-        "detail": "datetime",
+        "detail": "django.urls",
         "documentation": {}
     },
     {
-        "label": "Lesson",
-        "importPath": "study.models",
-        "description": "study.models",
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
         "isExtraImport": true,
-        "detail": "study.models",
+        "detail": "django.urls",
         "documentation": {}
     },
     {
-        "label": "LessonViewInfo",
-        "importPath": "study.models",
-        "description": "study.models",
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
         "isExtraImport": true,
-        "detail": "study.models",
+        "detail": "django.urls",
         "documentation": {}
     },
     {
-        "label": "Lesson",
-        "importPath": "study.models",
-        "description": "study.models",
+        "label": "ProductStatisticViewSet",
+        "importPath": "catalog.views",
+        "description": "catalog.views",
         "isExtraImport": true,
-        "detail": "study.models",
+        "detail": "catalog.views",
         "documentation": {}
     },
     {
-        "label": "SimpleRouter",
-        "importPath": "rest_framework.routers",
-        "description": "rest_framework.routers",
+        "label": "Count",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
         "isExtraImport": true,
-        "detail": "rest_framework.routers",
+        "detail": "django.db.models",
         "documentation": {}
     },
     {
-        "label": "MyLessonsByProductViewSet",
-        "importPath": "study.views",
-        "description": "study.views",
+        "label": "OuterRef",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
         "isExtraImport": true,
-        "detail": "study.views",
+        "detail": "django.db.models",
         "documentation": {}
     },
     {
-        "label": "MyLessonsViewSet",
-        "importPath": "study.views",
-        "description": "study.views",
+        "label": "Sum",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
         "isExtraImport": true,
-        "detail": "study.views",
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "F",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
         "documentation": {}
     },
     {
@@ -467,11 +449,181 @@
         "documentation": {}
     },
     {
+        "label": "IsAdminUser",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
         "label": "IsAuthenticated",
         "importPath": "rest_framework.permissions",
         "description": "rest_framework.permissions",
         "isExtraImport": true,
         "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "LessonStatusEnum",
+        "importPath": "study.models",
+        "description": "study.models",
+        "isExtraImport": true,
+        "detail": "study.models",
+        "documentation": {}
+    },
+    {
+        "label": "LessonViewInfo",
+        "importPath": "study.models",
+        "description": "study.models",
+        "isExtraImport": true,
+        "detail": "study.models",
+        "documentation": {}
+    },
+    {
+        "label": "Lesson",
+        "importPath": "study.models",
+        "description": "study.models",
+        "isExtraImport": true,
+        "detail": "study.models",
+        "documentation": {}
+    },
+    {
+        "label": "LessonViewInfo",
+        "importPath": "study.models",
+        "description": "study.models",
+        "isExtraImport": true,
+        "detail": "study.models",
+        "documentation": {}
+    },
+    {
+        "label": "Lesson",
+        "importPath": "study.models",
+        "description": "study.models",
+        "isExtraImport": true,
+        "detail": "study.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProductStatisticSerializer",
+        "importPath": "catalog.serializers",
+        "description": "catalog.serializers",
+        "isExtraImport": true,
+        "detail": "catalog.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "openapi",
+        "importPath": "drf_yasg",
+        "description": "drf_yasg",
+        "isExtraImport": true,
+        "detail": "drf_yasg",
+        "documentation": {}
+    },
+    {
+        "label": "get_schema_view",
+        "importPath": "drf_yasg.views",
+        "description": "drf_yasg.views",
+        "isExtraImport": true,
+        "detail": "drf_yasg.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "MyLessonsByProductViewSet",
+        "importPath": "study.views",
+        "description": "study.views",
+        "isExtraImport": true,
+        "detail": "study.views",
+        "documentation": {}
+    },
+    {
+        "label": "MyLessonsViewSet",
+        "importPath": "study.views",
+        "description": "study.views",
+        "isExtraImport": true,
+        "detail": "study.views",
+        "documentation": {}
+    },
+    {
+        "label": "MyLessonByProductSerializer",
+        "importPath": "study.serializers",
+        "description": "study.serializers",
+        "isExtraImport": true,
+        "detail": "study.serializers",
         "documentation": {}
     },
     {
@@ -546,6 +698,33 @@
         "documentation": {}
     },
     {
+        "label": "ProductStatisticSerializer",
+        "kind": 6,
+        "importPath": "catalog.serializers",
+        "description": "catalog.serializers",
+        "peekOfCode": "class ProductStatisticSerializer(serializers.Serializer):\n    title = serializers.CharField()\n    lesson_view_count = serializers.IntegerField()\n    total_view_time = serializers.IntegerField()\n    total_users_on_product = serializers.IntegerField()\n    purchasing_percent = serializers.FloatField()",
+        "detail": "catalog.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "catalog.urls",
+        "description": "catalog.urls",
+        "peekOfCode": "urlpatterns = [\n    path('product-statistic/', ProductStatisticViewSet.as_view({'get': 'list'}))\n]",
+        "detail": "catalog.urls",
+        "documentation": {}
+    },
+    {
+        "label": "ProductStatisticViewSet",
+        "kind": 6,
+        "importPath": "catalog.views",
+        "description": "catalog.views",
+        "peekOfCode": "class ProductStatisticViewSet(viewsets.GenericViewSet, mixins.ListModelMixin):\n    serializer_class = ProductStatisticSerializer\n    permission_classes = (IsAuthenticated, IsAdminUser)\n    def get_queryset(self):\n        total_users_count = User.objects.filter(is_active=True).count()\n        queryset = Product.objects.all().annotate(\n            lesson_view_count=Count(\n                LessonViewInfo.objects.filter(\n                    lesson__products=OuterRef('id'),\n                    status=LessonStatusEnum.VIEWED",
+        "detail": "catalog.views",
+        "documentation": {}
+    },
+    {
         "label": "application",
         "kind": 5,
         "importPath": "learnify.asgi",
@@ -577,7 +756,7 @@
         "kind": 5,
         "importPath": "learnify.settings",
         "description": "learnify.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'drf_yasg',\n    'catalog',",
+        "peekOfCode": "ALLOWED_HOSTS = []\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',\n    'drf_yasg',",
         "detail": "learnify.settings",
         "documentation": {}
     },
@@ -586,7 +765,7 @@
         "kind": 5,
         "importPath": "learnify.settings",
         "description": "learnify.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'drf_yasg',\n    'catalog',\n    'study',",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',\n    'drf_yasg',\n    'catalog',",
         "detail": "learnify.settings",
         "documentation": {}
     },
@@ -721,7 +900,7 @@
         "kind": 5,
         "importPath": "learnify.urls",
         "description": "learnify.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\n        'swagger/',\n        schema_view.with_ui('swagger', cache_timeout=0),\n        name='schema-swagger-ui'\n    ),\n    path('study/', include('study.urls')),\n    path('admin/', admin.site.urls),\n]",
+        "peekOfCode": "urlpatterns = [\n    path(\n        'swagger/',\n        schema_view.with_ui('swagger', cache_timeout=0),\n        name='schema-swagger-ui'\n    ),\n    path('study/', include('study.urls')),\n    path('catalog/', include('catalog.urls')),\n    path('admin/', admin.site.urls),\n]",
         "detail": "learnify.urls",
         "documentation": {}
     },
@@ -789,6 +968,15 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "study.migrations.0007_alter_lessonviewinfo_last_view_datetime",
+        "description": "study.migrations.0007_alter_lessonviewinfo_last_view_datetime",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('study', '0006_alter_lessonviewinfo_last_view_datetime'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='lessonviewinfo',\n            name='last_view_datetime',\n            field=models.DateTimeField(default=datetime.datetime(2023, 10, 13, 11, 23, 50, 253073)),\n        ),",
+        "detail": "study.migrations.0007_alter_lessonviewinfo_last_view_datetime",
+        "documentation": {}
+    },
+    {
         "label": "LessonAdmin",
         "kind": 6,
         "importPath": "study.admin",
@@ -847,7 +1035,16 @@
         "kind": 6,
         "importPath": "study.serializers",
         "description": "study.serializers",
-        "peekOfCode": "class MyLessonsSerializer(serializers.ModelSerializer):\n    status = serializers.CharField()\n    view_time = serializers.IntegerField()\n    class Meta:\n        model = Lesson\n        fields = ('title', 'status', 'view_time')",
+        "peekOfCode": "class MyLessonsSerializer(serializers.ModelSerializer):\n    status = serializers.CharField()\n    view_time = serializers.IntegerField()\n    class Meta:\n        model = Lesson\n        fields = ('title', 'status', 'view_time')\nclass MyLessonByProductSerializer(serializers.ModelSerializer):\n    status = serializers.CharField()\n    view_time = serializers.IntegerField()\n    last_view_datetime = serializers.DateTimeField()",
+        "detail": "study.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "MyLessonByProductSerializer",
+        "kind": 6,
+        "importPath": "study.serializers",
+        "description": "study.serializers",
+        "peekOfCode": "class MyLessonByProductSerializer(serializers.ModelSerializer):\n    status = serializers.CharField()\n    view_time = serializers.IntegerField()\n    last_view_datetime = serializers.DateTimeField()\n    class Meta:\n        model = Lesson\n        fields = ('title', 'status', 'view_time', 'last_view_datetime')",
         "detail": "study.serializers",
         "documentation": {}
     },
@@ -883,7 +1080,7 @@
         "kind": 6,
         "importPath": "study.views",
         "description": "study.views",
-        "peekOfCode": "class MyLessonsByProductViewSet(viewsets.GenericViewSet, mixins.ListModelMixin):\n    serializer_class = None\n    permission_classes = (IsAuthenticated,)\n    def get_queryset(self):\n        accesses = get_product_accesses(self.request.user)\n        product_id = self.kwargs['product_id']\n        if product_id in accesses.values_list('product_id', flat=True):\n            raise exceptions.NotFound\n        queryset = Lesson.objects.filter(\n            products=product_id",
+        "peekOfCode": "class MyLessonsByProductViewSet(viewsets.GenericViewSet, mixins.ListModelMixin):\n    serializer_class = MyLessonByProductSerializer\n    permission_classes = (IsAuthenticated,)\n    def get_queryset(self):\n        accesses = get_product_accesses(self.request.user)\n        product_id = self.kwargs['product_id']\n        if not (product_id in accesses.values_list('product_id', flat=True)):\n            raise exceptions.NotFound\n        queryset = Lesson.objects.filter(\n            products=product_id",
         "detail": "study.views",
         "documentation": {}
     },
